@@ -1,0 +1,45 @@
+./idea/
+.DS_Store
+.Trashes
+*.swp
+*.lock
+*~.nib
+.vscode
+.idea
+
+# Xcode build files
+DerivedData/
+build/
+
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# NB
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+*.xccheckout
+
+# Personal settings
+xcuserdata/
+xcuserdata/**/*
+!xcuserdata/**/xcschemes/*
+
+# VCS
+.git
+
+# Project files
+PersonalityQuiz.xcodeproj
+
+## Xcode 8 and earlier
+*.xcscmblueprint
+
+## Xcode 3 and earlier
+*.moved-aside
+
+## Gcc Patch
+/*.gcno
